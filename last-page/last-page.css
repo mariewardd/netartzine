@@ -1,0 +1,78 @@
+.columns{
+    grid-template-columns: repeat(6);
+    grid-template-rows: 1;
+}
+.first{
+    grid-column: 1;
+    grid-row:1;
+
+    animation-name: first;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+}
+@keyframes first {
+    0% {
+        background-image: url(../pencil/pencil.jpeg)
+    }
+    20% {
+        background-image: url(../pen/pen.jpeg)
+    }
+    40% {
+        background-image: url(../paint/paint.jpeg)
+    }
+    60% {
+        background-image: url(../photograph/photograph.jpeg)
+    }
+    80% {
+        background-image: url(../photoshop/photoshop.jpeg)
+    }
+    100% {
+        background-image: url(../ai-generated/ai-generated.jpeg)
+    }
+}
+.second{
+    grid-column: 2;
+    grid-row:1;
+
+    animation-name: second;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+}
+.third{
+    grid-column: 3;
+    grid-row:1;
+
+    animation-name: third;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+}
+.fourth{
+    grid-column: 4;
+    grid-row:1;
+
+    animation-name: fourth;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+}
+.fifth{
+    grid-column: 5;
+    grid-row:1;
+
+    animation-name: fifth;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+}
+.sixth{
+    grid-column: 6;
+    grid-row:1;
+
+    animation-name: sixth;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+}
