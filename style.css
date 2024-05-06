@@ -1,0 +1,72 @@
+body{
+    background-image:url(background.png);
+    background-size: cover;
+}
+.background{
+    width: 100%;
+    margin: none;
+    padding: none;
+    position:absolute;
+    border: 0;
+}
+header{
+    position:absolute;
+    font-size:150px;
+    font-family: "Dosis", sans-serif;
+    font-style: normal;
+    left: 50px;
+    top: 50px;
+    color:rgb(255, 255, 255);
+    text-shadow: rgba(255, 255, 255, 0.531) 1px 0 10px;
+}
+
+.pencil{
+    position: absolute;
+    left: 3.2%;
+    top: 93%;
+    width: 26.6%;
+    height: 52%;
+}
+.pencil:hover{
+    box-shadow: 3px 3px 22px 22px rgba(255, 255, 255, 0.531);
+}
+.pen{
+    position: absolute;
+    right: 5.2%;
+    top: 184.4%;
+    width: 26.6%;
+    height: 52%;
+}
+.pen:hover{
+    box-shadow: 3px 3px 22px 22px rgba(255, 255, 255, 0.531);
+}
+.paint{
+    position: absolute;
+    left: 49.8%;
+    top: 114.2%;
+    width: 26.6%;
+    height: 52%;
+}
+.paint:hover{
+    box-shadow: 3px 3px 22px 22px rgba(255, 255, 255, 0.531);
+}
+.photoshop{
+    position: absolute;
+    right: 7.9%;
+    top: 24.2%;
+    width: 26.6%;
+    height: 52%;
+}
+.photoshop:hover{
+    box-shadow: 3px 3px 22px 22px rgba(255, 255, 255, 0.531);
+}
+.ai-generated{
+    position: absolute;
+    left: 6.6%;
+    top: 192.6%;
+    width: 26.6%;
+    height: 52%;
+}
+.ai-generated:hover{
+    box-shadow: 3px 3px 22px 22px rgba(255, 255, 255, 0.531);
+}

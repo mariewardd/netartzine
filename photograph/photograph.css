@@ -1,0 +1,17 @@
+.background{
+    width: 100%;
+    margin: none;
+    padding: none;
+    position:absolute;
+    border: 0;
+}
+.photoshop{
+    position: absolute;
+    top: 516px;
+    left: 287px;
+    width: 912px;
+    height: 948px;
+}
+.photoshop:hover{
+    box-shadow: inset 3px 3px 22px 22px rgba(0, 0, 0, 0.41);
+}

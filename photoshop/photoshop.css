@@ -1,0 +1,17 @@
+.background{
+    width: 100%;
+    margin: none;
+    padding: none;
+    position:absolute;
+    border: 0;
+}
+.ai-generated{
+    position: absolute;
+    top: 512px;
+    left: 285px;
+    width: 915px;
+    height: 951px;
+}
+.ai-generated:hover{
+    box-shadow: inset 3px 3px 22px 22px rgba(0, 0, 0, 0.41);
+}

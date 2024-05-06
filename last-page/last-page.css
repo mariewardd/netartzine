@@ -1,78 +1,67 @@
-.columns{
-    grid-template-columns: repeat(6);
-    grid-template-rows: 1;
-}
-.first{
-    grid-column: 1;
-    grid-row:1;
-
-    animation-name: first;
-    animation-iteration-count: infinite;
-    animation-duration: 4s;
-    animation-timing-function: linear;
-}
-@keyframes first {
-    0% {
-        background-image: url(../pencil/pencil.jpeg)
-    }
-    20% {
-        background-image: url(../pen/pen.jpeg)
-    }
-    40% {
-        background-image: url(../paint/paint.jpeg)
-    }
-    60% {
-        background-image: url(../photograph/photograph.jpeg)
-    }
-    80% {
-        background-image: url(../photoshop/photoshop.jpeg)
-    }
-    100% {
-        background-image: url(../ai-generated/ai-generated.jpeg)
-    }
-}
-.second{
-    grid-column: 2;
-    grid-row:1;
-
+body{
+    width:100%;
+    height:1928px;
+    background-size: cover;
     animation-name: second;
     animation-iteration-count: infinite;
     animation-duration: 3s;
-    animation-timing-function: linear;
+    animation-timing-function:linear;
 }
-.third{
-    grid-column: 3;
-    grid-row:1;
-
-    animation-name: third;
-    animation-iteration-count: infinite;
-    animation-duration: 3s;
-    animation-timing-function: linear;
+@keyframes second {
+    0% {
+        background-image: url(first.png)
+    }
+    20% {
+        background-image: url(second.png)
+    }
+    40% {
+        background-image: url(third.png)
+    }
+    60% {
+        background-image: url(fourth.png)
+    }
+    80% {
+        background-image: url(fifth.png)
+    }
+    100% {
+        background-image: url(sixth.png)
+    }
 }
-.fourth{
-    grid-column: 4;
-    grid-row:1;
-
-    animation-name: fourth;
-    animation-iteration-count: infinite;
-    animation-duration: 3s;
-    animation-timing-function: linear;
+p{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:100px;
+    font-family: "Dosis", sans-serif;
+    color:white;
+    font-size:60px;
+    font-family: "Dosis", sans-serif;
+    text-decoration:none;
 }
-.fifth{
-    grid-column: 5;
-    grid-row:1;
-
-    animation-name: fifth;
-    animation-iteration-count: infinite;
-    animation-duration: 3s;
-    animation-timing-function: linear;
+a{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-top:76%;
+    font-family: "Dosis", sans-serif;
+    color:white;
+    font-size:80px;
+    font-family: "Dosis", sans-serif;
+    text-decoration:none;
+    text-shadow: rgba(255, 255, 255, 0.531) 1px 0 10px;
+    position:fixed;
 }
-.sixth{
-    grid-column: 6;
-    grid-row:1;
-
-    animation-name: sixth;
-    animation-iteration-count: infinite;
-    animation-duration: 3s;
-    animation-timing-function: linear;
+p2{
+    display:flex;
+    font-family: "Dosis", sans-serif;
+    padding-top:5%;
+    padding-left:15%;
+    padding-right:15%;
+    color:white;
+    font-size:40px;
+    font-family: "Dosis", sans-serif;
+    text-decoration:none;
+    text-shadow: rgba(255, 255, 255, 0.531) 1px 0 10px;
+    position:fixed;
+    text-align:center;
 }

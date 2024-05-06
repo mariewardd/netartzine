@@ -1,18 +1,19 @@
-body{
-    background-image:url(../pencil/pencil.jpeg);
-    background-size: cover;
-    font-size:150px;
-    padding:50px;
-}
-.pensneakpeak{
-    background-image:url(../pen/pen.jpeg);
-    background-size:cover;
-    width: 40%;
-    height: 40%;
 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -10% -20% -20% -20%;
-    display: flex;
+.background{
+    width: 100%;
+    margin: none;
+    padding: none;
+    position:absolute;
+    border: 0;
 }
+.pen{
+    position: absolute;
+    top: 515px;
+    left: 284px;
+    width: 897px;
+    height: 935px;
+}
+.pen:hover{
+    box-shadow: inset 3px 3px 22px 22px rgba(0, 0, 0, 0.41);
+}
+

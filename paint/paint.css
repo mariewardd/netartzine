@@ -1,0 +1,17 @@
+.background{
+    width: 100%;
+    margin: none;
+    padding: none;
+    position:absolute;
+    border: 0;
+}
+.photograph{
+    position: absolute;
+    top: 516px;
+    left: 287px;
+    width: 910px;
+    height: 945px;
+}
+.photograph:hover{
+    box-shadow: inset 3px 3px 22px 22px rgba(0, 0, 0, 0.41);
+}
